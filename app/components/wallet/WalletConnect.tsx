@@ -189,7 +189,7 @@ export function WalletConnect({ onConnect, isConnected, address }: WalletConnect
           Connect Your Wallet
         </h2>
         <p className="text-slate-600 dark:text-slate-400">
-          Choose how you'd like to connect to get started with DID
+          Choose how you&apos;d like to connect to get started with DID
         </p>
       </div>
 

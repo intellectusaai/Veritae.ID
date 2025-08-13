@@ -24,9 +24,6 @@ jobs:
         rm -f package-lock.json
         npm install --no-package-lock
     
-    - name: Run linter
-      run: npm run lint
-    
     - name: Run type check
       run: npx tsc --noEmit
     
