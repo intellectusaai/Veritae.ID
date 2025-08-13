@@ -91,6 +91,25 @@ did-frontend/
 └── README.md                    # Documentação
 ```
 
+## ⚙️ Configuração de Environment
+
+### 1. Criar arquivo .env.local
+```bash
+cp .env.example .env.local
+```
+
+### 2. Configurar variáveis obrigatórias
+```env
+NEXT_PUBLIC_PROJECT_ID=seu_wallet_connect_project_id_aqui
+```
+
+### 3. Para Deploy (Vercel/Netlify/GitHub)
+Adicione a variável `NEXT_PUBLIC_PROJECT_ID` nas configurações do seu provedor:
+
+**Vercel:** Settings → Environment Variables  
+**Netlify:** Site settings → Environment variables  
+**GitHub:** Settings → Secrets and variables → Actions
+
 ## 📦 Scripts Disponíveis
 
 - `npm run dev` - Executa o servidor de desenvolvimento
