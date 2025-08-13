@@ -36,7 +36,7 @@ jobs:
     - name: Build project
       run: npm run build
       env:
-        NEXT_PUBLIC_PROJECT_ID: ${{ vars.NEXT_PUBLIC_PROJECT_ID || 'fe515ff9704eef45dac867b8e313317d' }}
+        NEXT_PUBLIC_PROJECT_ID: fe515ff9704eef45dac867b8e313317d
 
   deploy:
     needs: test
